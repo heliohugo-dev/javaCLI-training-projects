@@ -10,7 +10,7 @@ public class Bin2DecApp {
         do {
             // Menu formatado
             System.out.println("\n╔════════════════════════════════════════╗");
-            System.out.println("║   BINARY TO DECIMAL CONVERTER         ║");
+            System.out.println("║   BINARY TO DECIMAL CONVERTER          ║");
             System.out.println("╚════════════════════════════════════════╝");
             System.out.println();
             System.out.println("  [1] Convert a binary number");
@@ -19,7 +19,7 @@ public class Bin2DecApp {
             System.out.print("➤ Choose an option: ");
 
             option = sc.nextInt();
-            sc.nextLine();  // limpa buffer
+            sc.nextLine();
 
             if (option == 1) {
                 System.out.println("\n─────────────────────────────────────────");
@@ -37,7 +37,7 @@ public class Bin2DecApp {
 
             } else if (option == 2) {
                 System.out.println("\n╔════════════════════════════════════════╗");
-                System.out.println("║  Thank you for using the converter!   ║");
+                System.out.println("║  Thank you for using the converter!    ║");
                 System.out.println("╚════════════════════════════════════════╝\n");
 
             } else {

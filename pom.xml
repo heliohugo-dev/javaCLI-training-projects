@@ -17,6 +17,7 @@
 
     <modules>
         <module>bin2dec</module>
+        <module>calculator</module>
     </modules>
 
 </project>
